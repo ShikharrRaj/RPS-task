@@ -15,7 +15,12 @@ const ReviewMode = ({
       </div>
 
       <label className="text-[14px] text-gray-500">Comment</label>
-      <div className="mb-4 text-[16px]">{commentText}</div>
+      <div
+        className="mb-4 text-[16px] max-w-full whitespace-nowrap overflow-hidden text-ellipsis"
+        title={commentText} 
+      >
+        {commentText}
+      </div>
 
       <label className="text-[14px] text-gray-500 mb-1">
         Supporting document attached
