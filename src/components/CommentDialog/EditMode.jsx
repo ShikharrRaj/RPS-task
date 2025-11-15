@@ -46,7 +46,7 @@ const EditMode = ({
         </label>
 
         <label className="flex items-center justify-between border border-gray-300 rounded-md px-3 py-2 cursor-pointer bg-white">
-          <span className="text-gray-400 text-sm">
+          <span className="text-gray-800 text-sm">
             {file ? file.name : "Select a file to upload"}
           </span>
 
