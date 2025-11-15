@@ -8,7 +8,6 @@ const FilePreview = ({ file }) => {
   return (
     <div className="flex items-center justify-between w-full border border-gray-300 rounded-md p-3 bg-white mb-5">
       <div className="flex items-start gap-3">
-        {/* Red file box */}
         <div className="w-10 h-12 bg-red-100 text-red-600 flex items-center justify-center rounded">
           <span className="text-xs font-bold">file</span>
         </div>
