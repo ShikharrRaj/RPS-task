@@ -26,7 +26,7 @@ const ReviewMode = ({
         <button
           type="button"
           onClick={resetAll}
-          className="border border-orange-500 text-orange-500 py-2 px-6 rounded-full hover:bg-orange-50"
+          className="border border-red-500 text-red-500 py-2 px-6 rounded-full hover:bg-red-50"
         >
           Delete Comment
         </button>
@@ -34,7 +34,7 @@ const ReviewMode = ({
         <button
           type="button"
           onClick={() => setIsSubmitted(false)}
-          className="bg-orange-500 text-white py-2 px-6 rounded-full hover:bg-orange-600"
+          className="bg-red-500 text-white py-2 px-6 rounded-full hover:bg-red-600"
         >
           Edit Comment
         </button>
